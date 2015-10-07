@@ -1,0 +1,37 @@
+﻿body.Chrome #logo{
+
+    background-image: url("chrome.jpg");
+}
+
+body.Firefox #logo{
+    background-image: url("firefox.jpg");
+}
+
+
+body.Explorer #logo{
+    background-image: url("ie.png");
+}
+
+
+body.Safari #logo{
+    background-image: url("safari.png");
+}
+
+
+body.Opera #logo{
+    background-image: url("opera.png");
+}
+
+
+#logo {
+    width: 500px;
+    height: 500px;
+    border: 3px solid silver;
+    margin: 20px auto 50px;
+}
+
+main, footer, h1 {
+    margin: 20px;
+    text-align: center;
+}
+h1{ margin-bottom: 50px;}
