@@ -64,7 +64,7 @@ var CrossBrowser = {
             this.appNome = param[i].versao || param[i].id;
 
             // retorna o id do navegador
-            if (navigator.vendor == "Opera Software ASA" || navigator.appVersion.indexOf("OPR")) {
+            if (navigator.vendor == "Opera Software ASA" || navigator.appVersion.indexOf("OPR") != -1) {
                 return "Opera";
             } else if (cabecalho) {
                 if (cabecalho.indexOf(param[i].app) != -1)
